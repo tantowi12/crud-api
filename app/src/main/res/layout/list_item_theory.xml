@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:layout_margin="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/purple_200"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_gathering_event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="id"/>
+
+        <TextView
+            android:id="@+id/tv_description_event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Squad"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

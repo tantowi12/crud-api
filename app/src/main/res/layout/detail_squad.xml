@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".detail_squad">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:cardElevation="1dp"
+        app:cardCornerRadius="15dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:background="@color/teal_200">
+
+            <TextView
+                android:id="@+id/tv_IdDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Id"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:id="@+id/tv_SquadDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Squad"
+                android:layout_below="@+id/tv_IdDetail"
+                android:textColor="#fff"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/tv_DetailDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Detail"
+                android:layout_below="@+id/tv_SquadDetail"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:textColor="#fff"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_EditDetail"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit"/>
+
+    <Button
+        android:id="@+id/btn_DeleteDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"/>
+
+</LinearLayout>
